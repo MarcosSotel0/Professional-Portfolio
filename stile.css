@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+#main-title{
+    background-color: #03312fad;
+}
+#main-title div{
+    padding-bottom: 20px;
+}
+#main-title div h1{
+    margin: 0%;
+}
+#title{
+    color: white;
+    text-align: center;
+}
+/* quick axes */
+#quick-axes{
+    background-color: #03312fad;
+}
+#quick-axes div{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.quick-options{
+    /* text-align: center; */
+    display: flex;
+    margin: auto;
+    width: 30%;
+    background-color: orange;
+    justify-content: center;
+}
+.quick-options h2{
+    
+    margin: 0px;
+}
+/* about me */
+#about-me-container{
+
+}
+#about-me{
+    margin-top: 20px;
+    display: flex;
+}
+#about-me img{
+   height: 250px;
+}
+#about-me-p{
+    flex-wrap: wrap;
+}
+#about-me-p h2{
+    text-align: center;
+}
+#about-me-p p{
+    margin: 0px 20px;
+}
+/*  progects  */
+#progects{
+    margin-top: 20px;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* align-content: stretch; */
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+}
+/* .progect-imgs{
+    max-width: 100%;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+} */
+#progects img{
+
+    width: 50%;
+}
+#progects h3{
+    color: yellow;
+}
+/* personal info */
+#contact-info{
+    margin-top: 20px;
+}
